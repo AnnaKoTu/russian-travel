@@ -1,6 +1,6 @@
 .lead__title {
   display: flex;
-  margin: 48px auto 35px;
+  margin: 48px auto 32px;
   max-width: 720px;
   font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
@@ -10,7 +10,7 @@
   text-align: center;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 685px) {
   .lead__title {
     max-width: 288px;
     margin-bottom: 16px;

@@ -1,28 +1,28 @@
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 0 auto;
-  padding-top: 28px;
-  max-width: 1184px;
-  max-height: auto;
+  padding: 28px 48px 0;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .header {
+    padding: 28px 48px 0;
     max-width: 928px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .header {
+    padding: 28px 24px 0;
     max-width: 720px;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 685px) {
   .header {
-    padding-top: 16px;
+    padding: 16px 16px 0;
     max-width: 288px;
-    margin: 0 16px 0;
   }
 }
